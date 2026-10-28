@@ -1,0 +1,22 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Database
+*.db
+*.sqlite3
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Secrets
+*.pem
+*.key
